@@ -1,0 +1,14 @@
+{
+  "name": "notificationswithnode",
+  "version": "1.0.0",
+  "description": "Testing playground to understand how to send desktop notifications with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Chambers",
+  "license": "ISC",
+  "dependencies": {
+    "node-notifier": "^5.0.2"
+  }
+}
