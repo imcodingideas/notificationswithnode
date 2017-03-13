@@ -22,3 +22,10 @@ notifier.notify({
 }, (error, response, metadata) => {
     console.log(error, response, metadata);
 });
+
+notifier.on('click', (obj, options) => {
+  const spawn = require('child_process').spawn;
+  const cmd = spawn('open', ['http://joseph.michael-chambers.com']);
+});
+
+notifier.on('close', (obj, options) => {});
